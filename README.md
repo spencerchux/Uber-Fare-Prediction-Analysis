@@ -14,18 +14,16 @@ This project presents an end-to-end machine learning analysis of Uber trip data.
 - Evaluate model performance using RMSE, MAE, and R²
 - Identify the best-performing model
 - Generate fare predictions for new Uber trips
+ ## Dataset
 
-## Dataset
+The dataset used in this project is the **Uber Fares Dataset** obtained from Kaggle.
 
-The dataset contains historical Uber trip records, including:
+- **Source:** [Uber Fares Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/uber-fares-dataset)
+- **File:** `uber.csv`
+- **Records:** 200,000 trips
+- **Features:** Fare amount, pickup datetime, pickup and drop-off coordinates, and passenger count
 
-- Fare amount
-- Pickup date and time
-- Pickup latitude and longitude
-- Drop-off latitude and longitude
-- Passenger count
-
-Data quality checks and cleaning were performed before modelling.
+The dataset is not included in this repository. To reproduce the analysis, download `uber.csv` from the Kaggle link above and place it in the `data` folder before running the notebook.
 
 ## Data Cleaning
 
