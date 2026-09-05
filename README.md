@@ -123,6 +123,8 @@ Data Loading → Data Validation → Data Cleaning → Exploratory Data Analysis
 ## Final Outcome
 
 This project demonstrates an end-to-end machine learning workflow covering data validation, cleaning, exploratory analysis, feature engineering, model training, evaluation, model selection, and prediction.
+The final XGBoost model was selected for its superior holdout performance and successfully generated a fare prediction for a new trip.
+
 
 ## 👤 Author
 
@@ -130,4 +132,3 @@ This project demonstrates an end-to-end machine learning workflow covering data 
 
 Data Science & Machine Learning Enthusiast
 
-The final XGBoost model was selected for its superior holdout performance and successfully generated a fare prediction for a new trip.
